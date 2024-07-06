@@ -2,32 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.cutout {
+  mask-image: url(data:image/svg+xml;base64,PCEtLT94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/LS0+CiAgICAgICAgICAgICAgPHN2ZyBpZD0ic3ctanMtYmxvYi1zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSI+CiAgICAgICAgICAgICAgICAgICAgPGRlZnM+IAogICAgICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9InN3LWdyYWRpZW50IiB4MT0iMCIgeDI9IjEiIHkxPSIxIiB5Mj0iMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBpZD0ic3RvcDEiIHN0b3AtY29sb3I9InJnYmEoMjQ4LCAxMTcsIDU1LCAxKSIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN0b3AgaWQ9InN0b3AyIiBzdG9wLWNvbG9yPSJyZ2JhKDI1MSwgMTY4LCAzMSwgMSkiIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9InVybCgjc3ctZ3JhZGllbnQpIiBkPSJNMjEuNiwtMzYuOUMyNy4zLC0zNC4yLDMwLjcsLTI2LjksMzQuMiwtMjBDMzcuNiwtMTMuMSw0MS4yLC02LjYsNDAuNCwtMC41QzM5LjUsNS42LDM0LjQsMTEuMiwzMS4xLDE4LjRDMjcuOCwyNS42LDI2LjMsMzQuNCwyMS41LDM5LjlDMTYuNiw0NS40LDguMyw0Ny43LDAuMyw0Ny4xQy03LjcsNDYuNiwtMTUuMyw0My4yLC0yMi40LDM4LjlDLTI5LjUsMzQuNywtMzUuOSwyOS42LC0zNi4zLDIzQy0zNi43LDE2LjMsLTMwLjksOC4yLC0yOS4xLDFDLTI3LjMsLTYuMSwtMjkuNSwtMTIuMiwtMjkuMiwtMTguOUMtMjguOCwtMjUuNSwtMjUuOSwtMzIuNywtMjAuNywtMzUuN0MtMTUuNCwtMzguNiwtNy43LC0zNy4yLDAuMSwtMzcuNUM4LC0zNy43LDE2LC0zOS42LDIxLjYsLTM2LjlaIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MCA1MCkiIHN0cm9rZS13aWR0aD0iMCIgc3R5bGU9InRyYW5zaXRpb246IGFsbCAwLjNzIGVhc2UgMHM7Ij48L3BhdGg+CiAgICAgICAgICAgICAgPC9zdmc+);
+  mask-repeat: no-repeat;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.Accordion__PanelContent {
+  transition: max-height 0.3s ease-in-out; /* Adjust duration and timing function as needed */
+  max-height: 0;
+  overflow: hidden;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.Accordion__PanelContent.rsuite-accordion-collapse {
+  max-height: 1000px; /* Set to a value large enough to accommodate your content */
 }
