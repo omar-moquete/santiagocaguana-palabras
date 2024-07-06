@@ -32,8 +32,8 @@ export default function IntroSection() {
         />
       </div>
 
-      <div className="w-full bg-gray-950 bg-opacity-50 backdrop-blur-sm absolute bottom-0">
-        <div className="py-12 px-6 md:px-16 flex flex-col gap-8 md:gap-10 max-w-6xl m-auto w-fit">
+      <div className="w-full bg-gray-950 bg-opacity-10 backdrop-blur-sm absolute bottom-0">
+        <div className="py-4 px-6 md:px-16 flex flex-col gap-8 md:gap-10 max-w-6xl m-auto w-fit">
           <h1
             className={`${elMessiri.className} text-4xl text-center bg-opacity-25`}
           >

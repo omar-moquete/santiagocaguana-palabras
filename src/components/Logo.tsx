@@ -33,7 +33,7 @@ export default function Logo({ size, showSubtext = true }: Props) {
   const { image, text, subtext } = sizeClasses[size] || sizeClasses.xl;
 
   return (
-    <div className="flex flex-col items-center py-4 backdrop-blur-sm z-10 bg-black bg-opacity-60 w-full">
+    <div className="flex flex-col items-center py-4 backdrop-blur-sm z-10 bg-black bg-opacity-10 w-full">
       <div className="flex items-center gap-4 w-fit">
         <img
           src={logoImg.src}
