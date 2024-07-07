@@ -28,11 +28,11 @@ export default function RatingListItem({
       </div>
 
       <div className="flex items-center gap-4">
-        {/* <img
+        <img
           src={imgUrl}
           alt="Rating author photo"
           className="rounded-full w-10 md:w-16 h-10 md:h-16"
-        /> */}
+        />
         <div className="mt-1">
           <h4 className="text-l font-semibold">{name}</h4>
           <p className="text-gray-400 text-sm">{occupation}</p>
