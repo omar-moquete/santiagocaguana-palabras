@@ -7,7 +7,7 @@ export default function RatingListItem({
   rating,
   title,
   comment,
-  // imgUrl,
+  imgUrl,
   name,
   occupation,
 }: RatingData) {
