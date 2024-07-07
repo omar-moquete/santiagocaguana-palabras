@@ -36,7 +36,7 @@ Esta elección lo conectó profundamente con su vocación de servicio y su amor 
     content: `Dándole click a "Quiero hablar con un asesor".`,
   },
   {
-    title: "¿Por dónde puedo acceder a Vivir Una Vida Sin Traumas?",
+    title: '¿Por dónde puedo acceder a "El Poder de las Palabras"?',
     content: `Contáctanos para saber más información."`,
   },
 ];
