@@ -8,12 +8,6 @@ export default function BulletPointSection() {
       <h1 className={`${elMessiri.className} text-4xl text-center`}>
         Reconoce el poder de tus palabras
       </h1>
-      <p>
-        Te invito a darte cuenta de que la forma en que te expresas influye
-        mucho en la creación de tu realidad. Identificaremos el gran valor que
-        tiene tu expresión verbal para crear una vida poderosa solo con tus
-        palabras.
-      </p>
       <ul className="shadow-lg p-4 flex flex-col gap-8 w-[90vw] max-w-xl m-auto bg-white text-gray-700 rounded-md">
         <h2 className={`${elMessiri.className} text-4xl text-center`}>
           Descubre los{" "}

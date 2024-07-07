@@ -28,16 +28,16 @@ En 2024, encontró su llamado al descubrir el "coaching transformacional" y tom�
 Esta elección lo conectó profundamente con su vocación de servicio y su amor por las personas. Santiago dedica su vida a vivir su propósito, tocando, moviendo e inspirando a cada persona que cruza su camino.`,
   },
   {
-    title: '¿Vale la pena "Vivir El Poder de las Palabras"?',
-    content: `Sí, definitivamente. El Poder de las Palabras ofrece conocimientos profundos y prácticos que pueden transformar tu enfoque y resultados en tu vida. Es una oportunidad única para aprender de expertos y conectar con una comunidad de profesionales apasionados.`,
+    title: '¿Vale la pena "El Poder de las Palabras"?',
+    content: `Sí, definitivamente. El Poder de las Palabras ofrece conocimientos profundos y prácticos que pueden transformar tu enfoque y resultados en tu vida.`,
   },
   {
     title: "¿Cómo puedo comunicarme?",
-    content: `Dándole click a "Quiero hablar con un asesor" podrás ser redireccionado a mi WhatsApp.`,
+    content: `Dándole click a "Quiero hablar con un asesor".`,
   },
   {
-    title: "¿Por dónde puedo acceder a El Poder de las Palabras?",
-    content: `Para saber más detalles solo envía un mensaje dándole click a "Quiero hablar con un asesor."`,
+    title: "¿Por dónde puedo acceder a Vivir Una Vida Sin Traumas?",
+    content: `Contáctanos para saber más información."`,
   },
 ];
 
