@@ -11,7 +11,7 @@ import useWindowSize from "../hooks/useScreenSize"; // Import the custom hook
 
 export default function IntroSection() {
   const size = useWindowSize();
-  const logoSize = size.width && size.width >= 768 ? "xl" : "md"; // Tailwind's md breakpoint is 768px
+  const logoSize = size.width && size.width >= 768 ? "xl" : "sm"; // Tailwind's md breakpoint is 768px
 
   const handleWhatsappRedirect = () => {
     const whatsappUrl = `https://wa.me/${santiago_phone_number}?text=${encodeURIComponent(
@@ -33,7 +33,7 @@ export default function IntroSection() {
       </div>
 
       <div className="w-full bg-gray-950 bg-opacity-10 backdrop-blur-sm absolute bottom-0">
-        <div className="py-4 px-6 md:px-16 flex flex-col gap-8 md:gap-10 max-w-6xl m-auto w-fit">
+        <div className="py-2 px-6 md:px-16 flex flex-col gap-8 md:gap-10 max-w-6xl m-auto w-fit">
           <h1
             className={`${elMessiri.className} text-4xl text-center bg-opacity-25`}
           >
